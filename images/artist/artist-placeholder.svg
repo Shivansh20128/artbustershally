@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<rect width="900" height="1100" fill="#d9d0c1"/>
+<rect x="90" y="80" width="720" height="940" fill="#ece6dc"/>
+<circle cx="450" cy="380" r="125" fill="#c8a991"/>
+<path d="M285 340 Q450 155 615 340 L590 270 Q450 150 310 270Z" fill="#302b28"/>
+<path d="M270 850 Q450 620 630 850 L670 1020 L230 1020Z" fill="#75857b"/>
+<path d="M570 640 L760 470 L780 520 L590 710Z" fill="#8c5e46"/>
+<circle cx="725" cy="425" r="55" fill="#d3a953"/>
+<text x="450" y="930" text-anchor="middle" font-family="Georgia,serif" font-size="42" fill="#514a42">ARTIST PHOTO</text>
+<text x="450" y="970" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#7c756c">REPLACE THIS IMAGE</text>
+</svg>

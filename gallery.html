@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — ArtBusterShally</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">ABS</span><span>ArtBusterShally</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#commissions">Commissions</a><a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main class="page-top">
+    <section class="page-hero section">
+      <p class="eyebrow">The full collection</p>
+      <h1>Every piece has<br><em>a little story.</em></h1>
+      <p>Browse the collection by medium and discover original artworks created in the studio.</p>
+    </section>
+    <section class="section">
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="Acrylic">Acrylic</button>
+        <button class="filter" data-filter="Oil">Oil</button>
+        <button class="filter" data-filter="Sketch">Sketches</button>
+        <button class="filter" data-filter="Mixed Media">Mixed Media</button>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="brand"><span class="brand-mark">ABS</span><span>ArtBusterShally</span></div>
+    <p>© <span id="year"></span> ArtBusterShally.</p><a href="index.html">Home</a>
+  </footer>
+  <div class="modal" id="artModal" aria-hidden="true">
+    <button class="modal-close" aria-label="Close artwork">×</button>
+    <div class="modal-content"><div class="modal-image-wrap"><img id="modalImage" src="" alt=""></div><div class="modal-details"><p class="eyebrow" id="modalMedium"></p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-meta"><span id="modalSize"></span><span id="modalYear"></span><span id="modalStatus"></span></div></div></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
